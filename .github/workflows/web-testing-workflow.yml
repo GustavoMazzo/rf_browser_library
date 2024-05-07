@@ -10,12 +10,12 @@ jobs:
               uses: actions/Checkout@v3
 
             - name: Install Python 3.10
-              uses: actions/setup.Python@v4
+              uses: actions/setup-Python@v4
               with:
                     python-version: '3.10'
             
             - name: Install Node.js 19.1
-              uses: actions/setup.Node@v3
+              uses: actions/setup-Node@v3
               with:
                     node-version: '19.1'
 
